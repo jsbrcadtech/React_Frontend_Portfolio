@@ -1,0 +1,122 @@
+/* imported fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+  height: 100% auto;
+}
+p,
+a {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  text-decoration: none !;
+}
+
+.w3-button {
+  background-color: #474350;
+  color: white;
+  opacity: 80%;
+  margin-left: 5%;
+}
+.w3-button:hover {
+  font-weight: bold;
+}
+#hero-container {
+  background: url(/public/img/me.jpg) no-repeat center center/cover;
+  opacity: 90%;
+}
+.w3-container__skills {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  object-fit: 'cover';
+  width: '100%';
+  height: '100%';
+}
+
+.w3-container__skills p {
+  font-size: 1em;
+}
+.w3-container__section {
+  align-items: center;
+}
+
+.w3-hero-container__body-content {
+  font-size: 2em;
+  font-weight: 700;
+}
+.w3-hero-container__title {
+  font-size: 5em;
+}
+.w3-container__title {
+  font-size: 3em;
+}
+.w3-container__subtitle {
+  font-size: 2em;
+}
+.w3-container__body-content {
+  font-size: 1.5em;
+}
+.w3-container__skills__icons {
+  font-size: 3em;
+}
+.footer__icons {
+  color: #474350 !important;
+}
+.w3-project-container,
+.w3-mypictures-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.description {
+  list-style: none;
+}
+.footer__details {
+  font-size: 1.3em;
+  font-weight: 700;
+  text-decoration: none;
+  color: #474350;
+}
+.bkgdTableWidth {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.tableWidth {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 80% !important;
+  }
+  .w3-container__skills,
+  .w3-mypictures-container,
+  .w3-project-container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .w3-container__skills__icons {
+    font-size: 2.5em;
+  }
+  .pictures__mobile {
+    width: 50% !important;
+    height: 60% !important;
+  }
+  .w3-hero-container__title {
+    font-size: 3em !important;
+  }
+  .w3-container__title {
+    font-size: 2.5em !important;
+  }
+  .w3-container__subtitle {
+    font-size: 2.5em !important;
+  }
+}
