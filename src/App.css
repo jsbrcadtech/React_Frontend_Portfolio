@@ -62,7 +62,7 @@ a {
   font-size: 3em;
 }
 .footer__icons {
-  color: #474350 !important;
+  color: #474350;
 }
 .w3-project-container,
 .w3-mypictures-container {
@@ -73,9 +73,6 @@ a {
   grid-row-gap: 10px;
 }
 
-.description {
-  list-style: none;
-}
 .footer__details {
   font-size: 1.3em;
   font-weight: 700;
@@ -90,6 +87,10 @@ a {
 .tableWidth {
   max-width: 50%;
   margin: 0 auto;
+}
+.w3-ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
 }
 
 @media (max-width: 600px) {

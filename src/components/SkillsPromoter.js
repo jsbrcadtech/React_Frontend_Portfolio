@@ -12,6 +12,21 @@ function SkillsPromoter() {
           <Skills icon={skill.icon} name={skill.name} key={skill.id} />
         ))}
       </ul>
+      <ul className="list-unstyled w3-container__skills fs-6 gap-3">
+        <li className="border border-black border-2 rounded-3 p-2">.NET</li>
+        <li className="border border-black border-2 rounded-3 p-2">
+          Power Platform
+        </li>
+        <li className="border border-black border-2 rounded-3 p-2">
+          Office Script
+        </li>
+        <li className="border border-black border-2 rounded-3 p-2">
+          Excel VBA
+        </li>
+        <li className="border border-black border-2 rounded-3 p-2">
+          Oracle Apex
+        </li>
+      </ul>
       <p className="fs-1 text-center">#Passion4Learning</p>
     </section>
   );

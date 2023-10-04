@@ -20,7 +20,7 @@ function BackgroundDetails() {
   return (
     <>
       <section className="container-fluid ">
-        <h2 className="w3-center w3-container__title">Work Experience</h2>
+        <h2 className="w3-center w3-container__title mt-5">Work Experience</h2>
         <table className="table table-sm">
           <thead>
             <tr>
